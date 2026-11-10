@@ -1,0 +1,3369 @@
+[
+  {
+    "context": "AboutDialog",
+    "source": "<html><body><p><a href=\"https://github.com/zortos293/Eglantine\">Source Code</a> | <a href=\"https://github.com/zortos293/Eglantine/issues\">Report an Issue</a> | <a href=\"https://github.com/zortos293/Eglantine#credits-and-license\">Credits and License</a></p></body></html>",
+    "files": [
+      "src/yuzu/aboutdialog.ui"
+    ]
+  },
+  {
+    "context": "AboutDialog",
+    "source": "<html><head/><body><p><span style=\" font-size:28pt;\">Lichii</span></p></body></html>",
+    "files": [
+      "src/yuzu/aboutdialog.ui"
+    ]
+  },
+  {
+    "context": "AboutDialog",
+    "source": "<html><head/><body><p><span style=\" font-size:7pt;\">&quot;Nintendo Switch&quot; is a trademark of Nintendo. Lichii is not affiliated with Nintendo in any way.</span></p></body></html>",
+    "files": [
+      "src/yuzu/aboutdialog.ui"
+    ]
+  },
+  {
+    "context": "AboutDialog",
+    "source": "About Lichii",
+    "files": [
+      "src/yuzu/aboutdialog.ui"
+    ]
+  },
+  {
+    "context": "ConfigureCpuDebug",
+    "source": "<div style=\"white-space: nowrap\">This optimization speeds up exclusive memory accesses by the guest program.</div>\n            <div style=\"white-space: nowrap\">Enabling it reduces the overhead of fastmem failure of exclusive memory accesses.</div>",
+    "files": [
+      "src/yuzu/configuration/configure_cpu_debug.ui"
+    ]
+  },
+  {
+    "context": "ConfigureCpuDebug",
+    "source": "<div style=\"white-space: nowrap\">This optimization speeds up memory accesses by allowing invalid memory accesses to succeed.</div>\n            <div style=\"white-space: nowrap\">Enabling it reduces the overhead of all memory accesses and has no impact on programs that don't access invalid memory.</div>",
+    "files": [
+      "src/yuzu/configuration/configure_cpu_debug.ui"
+    ]
+  },
+  {
+    "context": "ConfigureCpuDebug",
+    "source": "<div style=\"white-space: nowrap\">This optimization speeds up memory accesses by the guest program.</div>\n            <div style=\"white-space: nowrap\">Enabling it causes guest memory reads/writes to be done directly into memory and make use of Host's MMU.</div>\n            <div style=\"white-space: nowrap\">Disabling this forces all memory accesses to use Software MMU Emulation.</div>",
+    "files": [
+      "src/yuzu/configuration/configure_cpu_debug.ui"
+    ]
+  },
+  {
+    "context": "ConfigureCpuDebug",
+    "source": "<div style=\"white-space: nowrap\">This optimization speeds up memory accesses by the guest program.</div>\n            <div style=\"white-space: nowrap\">Enabling it inlines accesses to PageTable::pointers into emitted code.</div>\n            <div style=\"white-space: nowrap\">Disabling this forces all memory accesses to go through the Memory::Read/Memory::Write functions.</div>",
+    "files": [
+      "src/yuzu/configuration/configure_cpu_debug.ui"
+    ]
+  },
+  {
+    "context": "ConfigureCpuDebug",
+    "source": "<div style=\"white-space: nowrap\">When enabled, a misalignment is only triggered when an access crosses a page boundary.</div>\n            <div style=\"white-space: nowrap\">When disabled, a misalignment is triggered on all misaligned accesses.</div>",
+    "files": [
+      "src/yuzu/configuration/configure_cpu_debug.ui"
+    ]
+  },
+  {
+    "context": "ConfigureCpuDebug",
+    "source": "<div>Enable a two-tiered dispatch system. A faster dispatcher written in assembly has a small MRU cache of jump destinations is used first. If that fails, dispatch falls back to the slower C++ dispatcher.</div>",
+    "files": [
+      "src/yuzu/configuration/configure_cpu_debug.ui"
+    ]
+  },
+  {
+    "context": "ConfigureCpuDebug",
+    "source": "<div>Enables an IR optimization that reduces unnecessary accesses to the CPU context structure.</div>",
+    "files": [
+      "src/yuzu/configuration/configure_cpu_debug.ui"
+    ]
+  },
+  {
+    "context": "ConfigureCpuDebug",
+    "source": "<div>Enables IR optimizations that involve constant propagation.</div>",
+    "files": [
+      "src/yuzu/configuration/configure_cpu_debug.ui"
+    ]
+  },
+  {
+    "context": "ConfigureCpuDebug",
+    "source": "<div>Enables miscellaneous IR optimizations.</div>",
+    "files": [
+      "src/yuzu/configuration/configure_cpu_debug.ui"
+    ]
+  },
+  {
+    "context": "ConfigureCpuDebug",
+    "source": "<div>This optimization avoids dispatcher lookups by allowing emitted basic blocks to jump directly to other basic blocks if the destination PC is static.</div>",
+    "files": [
+      "src/yuzu/configuration/configure_cpu_debug.ui"
+    ]
+  },
+  {
+    "context": "ConfigureCpuDebug",
+    "source": "<div>This optimization avoids dispatcher lookups by keeping track potential return addresses of BL instructions. This approximates what happens with a return stack buffer on a real CPU.</div>",
+    "files": [
+      "src/yuzu/configuration/configure_cpu_debug.ui"
+    ]
+  },
+  {
+    "context": "ConfigureDebug",
+    "source": "(bitmask)",
+    "files": [
+      "src/yuzu/configuration/configure_debug.ui"
+    ]
+  },
+  {
+    "context": "ConfigureDebug",
+    "source": "**This will be reset automatically when Lichii closes.",
+    "files": [
+      "src/yuzu/configuration/configure_debug.ui"
+    ]
+  },
+  {
+    "context": "ConfigureDialog",
+    "source": "Lichii Configuration",
+    "files": [
+      "src/yuzu/configuration/configure.ui"
+    ]
+  },
+  {
+    "context": "ConfigureInputAdvanced",
+    "source": "Requires restarting Lichii",
+    "files": [
+      "src/yuzu/configuration/configure_input_advanced.ui"
+    ]
+  },
+  {
+    "context": "ConfigurePerGame",
+    "source": "Allow online lookup",
+    "files": [
+      "src/yuzu/configuration/configure_per_game.ui"
+    ]
+  },
+  {
+    "context": "ConfigurePerGame",
+    "source": "Detect Icon",
+    "files": [
+      "src/yuzu/configuration/configure_per_game.ui"
+    ]
+  },
+  {
+    "context": "ConfigurePerGame",
+    "source": "If no local icon is found, send the game name to GitHub, Wikipedia and Bing to look for an icon. Disabled by default.",
+    "files": [
+      "src/yuzu/configuration/configure_per_game.ui"
+    ]
+  },
+  {
+    "context": "ConfigurePerGame",
+    "source": "Preview a local icon next to the archive. Online lookup is optional. Apply or OK saves changes.",
+    "files": [
+      "src/yuzu/configuration/configure_per_game.ui"
+    ]
+  },
+  {
+    "context": "ConfigurePerGame",
+    "source": "Preview a local image as the game icon. Apply or OK saves changes.",
+    "files": [
+      "src/yuzu/configuration/configure_per_game.ui"
+    ]
+  },
+  {
+    "context": "ConfigurePerGame",
+    "source": "Upload Icon...",
+    "files": [
+      "src/yuzu/configuration/configure_per_game.ui"
+    ]
+  },
+  {
+    "context": "ConfigureTouchscreenAdvanced",
+    "source": "Warning: The settings in this page affect the inner workings of Lichii's emulated touchscreen. Changing them may result in undesirable behavior, such as the touchscreen partially or not working. You should only use this page if you know what you are doing.",
+    "files": [
+      "src/yuzu/configuration/configure_touchscreen_advanced.ui"
+    ]
+  },
+  {
+    "context": "ConfigureUi",
+    "source": "Screenshots Path:",
+    "files": [
+      "src/yuzu/configuration/configure_ui.ui"
+    ]
+  },
+  {
+    "context": "ConfigureWeb",
+    "source": "Lichii Web Service",
+    "files": [
+      "src/yuzu/configuration/configure_web.ui"
+    ]
+  },
+  {
+    "context": "ConfigureWeb",
+    "source": "Token:",
+    "files": [
+      "src/yuzu/configuration/configure_web.ui"
+    ]
+  },
+  {
+    "context": "ConfigureWeb",
+    "source": "Username:",
+    "files": [
+      "src/yuzu/configuration/configure_web.ui"
+    ]
+  },
+  {
+    "context": "DepsDialog",
+    "source": "<html><head/><body><p><span style=\" font-size:28pt;\">Lichii Dependencies</span></p></body></html>",
+    "files": [
+      "src/yuzu/deps_dialog.ui"
+    ]
+  },
+  {
+    "context": "DepsDialog",
+    "source": "<html><head/><body><p>The projects that make Lichii possible</p></body></html>",
+    "files": [
+      "src/yuzu/deps_dialog.ui"
+    ]
+  },
+  {
+    "context": "DepsDialog",
+    "source": "Lichii Dependencies",
+    "files": [
+      "src/yuzu/deps_dialog.ui"
+    ]
+  },
+  {
+    "context": "Hotkeys",
+    "source": "Exit Eglantine",
+    "files": [
+      "src/qt_common/config/uisettings.cpp"
+    ]
+  },
+  {
+    "context": "Hotkeys",
+    "source": "Exit Lichii",
+    "files": [
+      "src/yuzu/configuration/configure_hotkeys.cpp"
+    ]
+  },
+  {
+    "context": "MainWindow",
+    "source": "&About Lichii",
+    "files": [
+      "src/yuzu/main.ui"
+    ]
+  },
+  {
+    "context": "MainWindow",
+    "source": "&Lichii Dependencies",
+    "files": [
+      "src/yuzu/main.ui"
+    ]
+  },
+  {
+    "context": "MainWindow",
+    "source": "FSR 1",
+    "files": [
+      "src/qt_common/config/shared_translation.h"
+    ]
+  },
+  {
+    "context": "MainWindow",
+    "source": "FSR 1 Soft",
+    "files": [
+      "src/qt_common/config/shared_translation.h"
+    ]
+  },
+  {
+    "context": "MainWindow",
+    "source": "Lichii",
+    "files": [
+      "src/yuzu/main.ui"
+    ]
+  },
+  {
+    "context": "MainWindow",
+    "source": "LSFG",
+    "files": [
+      "src/qt_common/config/shared_translation.h"
+    ]
+  },
+  {
+    "context": "MainWindow",
+    "source": "Open &Lichii Folders",
+    "files": [
+      "src/yuzu/main.ui"
+    ]
+  },
+  {
+    "context": "MainWindow",
+    "source": "Optical Flow",
+    "files": [
+      "src/qt_common/config/shared_translation.h"
+    ]
+  },
+  {
+    "context": "NewUserDialog",
+    "source": "Lichii",
+    "files": [
+      "src/yuzu/configuration/system/new_user_dialog.ui"
+    ]
+  },
+  {
+    "context": "NupEditDialog",
+    "source": "Chinese (Simplified)",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "NupEditDialog",
+    "source": "Chinese (Traditional)",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "NupEditDialog",
+    "source": "Dutch",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "NupEditDialog",
+    "source": "English (UK)",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "NupEditDialog",
+    "source": "French",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "NupEditDialog",
+    "source": "French (Canada)",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "NupEditDialog",
+    "source": "German",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "NupEditDialog",
+    "source": "Italian",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "NupEditDialog",
+    "source": "Japanese",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "NupEditDialog",
+    "source": "Korean",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "NupEditDialog",
+    "source": "Portuguese",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "NupEditDialog",
+    "source": "Portuguese (Brazil)",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "NupEditDialog",
+    "source": "Russian",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "NupEditDialog",
+    "source": "Spanish",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "NupEditDialog",
+    "source": "Spanish (Latin America)",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "RyujinxDialog",
+    "source": "From Lichii",
+    "files": [
+      "src/yuzu/ryujinx_dialog.ui"
+    ]
+  },
+  {
+    "context": "RyujinxDialog",
+    "source": "Linking save data to Ryujinx lets both Ryujinx and Lichii reference the same save files for your games.\n\nBy selecting \"From Lichii\", previous save data stored in Ryujinx will be deleted, and vice versa for \"From Ryujinx\".",
+    "files": [
+      "src/yuzu/ryujinx_dialog.ui"
+    ]
+  },
+  {
+    "context": "UpdateDialog",
+    "source": "Would you like to download this update?",
+    "files": [
+      "src/yuzu/updater/update_dialog.ui"
+    ]
+  },
+  {
+    "context": "bootmanager",
+    "source": "Lichii has not been compiled with OpenGL support.",
+    "files": [
+      "src/yuzu/bootmanager.cpp"
+    ]
+  },
+  {
+    "context": "bootmanager",
+    "source": "Your GPU may not support one or more required OpenGL extensions. Please ensure you",
+    "files": [
+      "src/yuzu/bootmanager.cpp"
+    ]
+  },
+  {
+    "context": "bootmanager",
+    "source": "Your GPU may not support OpenGL 4.6, or you do not have the",
+    "files": [
+      "src/yuzu/bootmanager.cpp"
+    ]
+  },
+  {
+    "context": "chat_room",
+    "source": "Are you sure you would like to <b>kick and ban</b> %1?\n\nThis would",
+    "files": [
+      "src/yuzu/multiplayer/chat_room.cpp"
+    ]
+  },
+  {
+    "context": "chat_room",
+    "source": "When you block a player, you will no longer receive chat messages from",
+    "files": [
+      "src/yuzu/multiplayer/chat_room.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "All report fields in the preview will be public. Logs, files,",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "An X handle must contain 1–15 letters, digits or underscores, with an optional @.",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Catalog search failed. Check your connection and retry explicitly.",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Check %1: required fields must be filled, within their length limit,",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Check the search text.",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Choose your assessment",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Choose your own compatibility assessment.",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Clear draft",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Compatibility",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Confirm game",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Confirmed: %1 (catalog ID %2)",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Draft cleared. Nothing was sent by clearing it.",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Experience",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Game title to search",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Game version",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "GPU driver / OpenGL version",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Graphics API",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "How far did you play?",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "I understand my name, optional X handle, report text,",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Launch settings",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Lichii build",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Mods (optional)",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "My report contains no game files, keys, firmware,",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Next",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "No catalog game confirmed.",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "No valid receipt was received. Delivery may have succeeded.",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Open public report",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Operating system",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Page %1 of %2. Select the exact game and press Confirm game.",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Prefilled values describe launch settings, not measured",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Previous",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Public nickname",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Public preview",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "RAM (optional)",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Rate limit reached. Wait %1 seconds, then retry explicitly.",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Report submitted. It is public. Thank you.",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Search catalog",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Search for and confirm the catalog game first.",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Search sends only the text above to lichii.zortos.me.",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Searching catalog… Cancel closes the dialog and stops this request.",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Share your experience with the latest completed session. Nothing is sent until you",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Steps to reproduce (optional)",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Submit compatibility report",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Submit report",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Submitting… Closing stops waiting, but cannot retract a report the",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Summary",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "System and settings",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "The catalog returned an invalid response. No game was confirmed.",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "The report is too large.",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "The server rejected the report. Review the fields and length",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "The server rejected the request (HTTP %1). No automatic retry was made.",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "The server rejected these fields: %1. Review them before",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "The server rejected this submission identity. Edit the draft to start",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "The server returned an invalid receipt. The report may have",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "Updates (optional)",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "What worked or failed?",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "compatibility_report",
+    "source": "X handle (optional)",
+    "files": [
+      "src/yuzu/compatibility_report.cpp"
+    ]
+  },
+  {
+    "context": "configure_filesystem",
+    "source": "Save data exists in both the old and new locations.",
+    "files": [
+      "src/yuzu/configuration/configure_filesystem.cpp"
+    ]
+  },
+  {
+    "context": "configure_filesystem",
+    "source": "Save data has been migrated successfully.",
+    "files": [
+      "src/yuzu/configuration/configure_filesystem.cpp"
+    ]
+  },
+  {
+    "context": "configure_filesystem",
+    "source": "Would you like to migrate your save data to the new location?",
+    "files": [
+      "src/yuzu/configuration/configure_filesystem.cpp"
+    ]
+  },
+  {
+    "context": "configure_general",
+    "source": "Lichii",
+    "files": [
+      "src/yuzu/configuration/configure_general.cpp"
+    ]
+  },
+  {
+    "context": "configure_general",
+    "source": "This reset all settings and remove all per-game configurations. This will not delete",
+    "files": [
+      "src/yuzu/configuration/configure_general.cpp"
+    ]
+  },
+  {
+    "context": "configure_graphics",
+    "source": "Hz",
+    "files": [
+      "src/yuzu/configuration/configure_graphics.cpp"
+    ]
+  },
+  {
+    "context": "configure_graphics_extensions",
+    "source": "Extended Dynamic State is disabled on macOS due to MoltenVK",
+    "files": [
+      "src/yuzu/configuration/configure_graphics_extensions.cpp"
+    ]
+  },
+  {
+    "context": "configure_input",
+    "source": "Microphone",
+    "files": [
+      "src/yuzu/configuration/configure_input.cpp"
+    ]
+  },
+  {
+    "context": "configure_input_player",
+    "source": "After pressing OK, first move your joystick horizontally, and then",
+    "files": [
+      "src/yuzu/configuration/configure_input_player.cpp"
+    ]
+  },
+  {
+    "context": "configure_microphone",
+    "source": "%1 (unavailable)",
+    "files": [
+      "src/yuzu/configuration/configure_microphone.cpp"
+    ]
+  },
+  {
+    "context": "configure_microphone",
+    "source": "%1%",
+    "files": [
+      "src/yuzu/configuration/configure_microphone.cpp"
+    ]
+  },
+  {
+    "context": "configure_microphone",
+    "source": "Choose the microphone used by games. Start a test and speak",
+    "files": [
+      "src/yuzu/configuration/configure_microphone.cpp"
+    ]
+  },
+  {
+    "context": "configure_microphone",
+    "source": "Input level:",
+    "files": [
+      "src/yuzu/configuration/configure_microphone.cpp"
+    ]
+  },
+  {
+    "context": "configure_microphone",
+    "source": "Listening. Speak into your microphone.",
+    "files": [
+      "src/yuzu/configuration/configure_microphone.cpp"
+    ]
+  },
+  {
+    "context": "configure_microphone",
+    "source": "Microphone",
+    "files": [
+      "src/yuzu/configuration/configure_microphone.cpp"
+    ]
+  },
+  {
+    "context": "configure_microphone",
+    "source": "Microphone disconnected or capture failed.",
+    "files": [
+      "src/yuzu/configuration/configure_microphone.cpp"
+    ]
+  },
+  {
+    "context": "configure_microphone",
+    "source": "Microphone input is unavailable. Choose an available input device.",
+    "files": [
+      "src/yuzu/configuration/configure_microphone.cpp"
+    ]
+  },
+  {
+    "context": "configure_microphone",
+    "source": "Microphone volume:",
+    "files": [
+      "src/yuzu/configuration/configure_microphone.cpp"
+    ]
+  },
+  {
+    "context": "configure_microphone",
+    "source": "Refresh devices",
+    "files": [
+      "src/yuzu/configuration/configure_microphone.cpp"
+    ]
+  },
+  {
+    "context": "configure_microphone",
+    "source": "Start microphone test",
+    "files": [
+      "src/yuzu/configuration/configure_microphone.cpp"
+    ]
+  },
+  {
+    "context": "configure_microphone",
+    "source": "Stop emulation to change the microphone input device or volume.",
+    "files": [
+      "src/yuzu/configuration/configure_microphone.cpp"
+    ]
+  },
+  {
+    "context": "configure_microphone",
+    "source": "Stop microphone test",
+    "files": [
+      "src/yuzu/configuration/configure_microphone.cpp"
+    ]
+  },
+  {
+    "context": "configure_microphone",
+    "source": "System default",
+    "files": [
+      "src/yuzu/configuration/configure_microphone.cpp"
+    ]
+  },
+  {
+    "context": "configure_microphone",
+    "source": "Unable to open the microphone. Check the device and microphone",
+    "files": [
+      "src/yuzu/configuration/configure_microphone.cpp"
+    ]
+  },
+  {
+    "context": "configure_motion_touch",
+    "source": "Could not receive valid data from the server.<br>Please verify",
+    "files": [
+      "src/yuzu/configuration/configure_motion_touch.cpp"
+    ]
+  },
+  {
+    "context": "configure_motion_touch",
+    "source": "Lichii",
+    "files": [
+      "src/yuzu/configuration/configure_motion_touch.cpp"
+    ]
+  },
+  {
+    "context": "configure_motion_touch",
+    "source": "UDP Test or calibration configuration is in progress.<br>Please",
+    "files": [
+      "src/yuzu/configuration/configure_motion_touch.cpp"
+    ]
+  },
+  {
+    "context": "configure_mouse_panning",
+    "source": "Mouse panning works better with a deadzone of 0% and a range of 100%.\nCurrent",
+    "files": [
+      "src/yuzu/configuration/configure_mouse_panning.cpp"
+    ]
+  },
+  {
+    "context": "configure_mouse_panning",
+    "source": "Real mouse input and mouse panning are incompatible. Please disable the",
+    "files": [
+      "src/yuzu/configuration/configure_mouse_panning.cpp"
+    ]
+  },
+  {
+    "context": "configure_per_game",
+    "source": "Detect Icon",
+    "files": [
+      "src/yuzu/configuration/configure_per_game.cpp"
+    ]
+  },
+  {
+    "context": "configure_per_game",
+    "source": "Detecting...",
+    "files": [
+      "src/yuzu/configuration/configure_per_game.cpp"
+    ]
+  },
+  {
+    "context": "configure_per_game",
+    "source": "Edit the game name stored in the NUP metadata",
+    "files": [
+      "src/yuzu/configuration/configure_per_game.cpp"
+    ]
+  },
+  {
+    "context": "configure_per_game",
+    "source": "Enter game name...",
+    "files": [
+      "src/yuzu/configuration/configure_per_game.cpp"
+    ]
+  },
+  {
+    "context": "configure_per_game",
+    "source": "Failed to update NUP metadata:\n%1",
+    "files": [
+      "src/yuzu/configuration/configure_per_game.cpp"
+    ]
+  },
+  {
+    "context": "configure_per_game",
+    "source": "Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)",
+    "files": [
+      "src/yuzu/configuration/configure_per_game.cpp"
+    ]
+  },
+  {
+    "context": "configure_per_game",
+    "source": "Invalid Image",
+    "files": [
+      "src/yuzu/configuration/configure_per_game.cpp"
+    ]
+  },
+  {
+    "context": "configure_per_game",
+    "source": "Please enter a game name first so the icon can be detected.",
+    "files": [
+      "src/yuzu/configuration/configure_per_game.cpp"
+    ]
+  },
+  {
+    "context": "configure_per_game",
+    "source": "Select a PNG, JPEG, BMP or WebP image up to 8 MiB,",
+    "files": [
+      "src/yuzu/configuration/configure_per_game.cpp"
+    ]
+  },
+  {
+    "context": "configure_per_game",
+    "source": "Select Game Icon",
+    "files": [
+      "src/yuzu/configuration/configure_per_game.cpp"
+    ]
+  },
+  {
+    "context": "configure_per_game",
+    "source": "Stop emulation before changing NUP metadata.",
+    "files": [
+      "src/yuzu/configuration/configure_per_game.cpp"
+    ]
+  },
+  {
+    "context": "configure_per_game",
+    "source": "The game name is too long to search.",
+    "files": [
+      "src/yuzu/configuration/configure_per_game.cpp"
+    ]
+  },
+  {
+    "context": "configure_per_game",
+    "source": "Update NUP Metadata",
+    "files": [
+      "src/yuzu/configuration/configure_per_game.cpp"
+    ]
+  },
+  {
+    "context": "configure_per_game_addons",
+    "source": "Once deleted, these can NOT be recovered. Are you 100% sure",
+    "files": [
+      "src/yuzu/configuration/configure_per_game_addons.cpp"
+    ]
+  },
+  {
+    "context": "configure_per_game_addons",
+    "source": "Only mods, cheats, and patches can be deleted.\nTo delete",
+    "files": [
+      "src/yuzu/configuration/configure_per_game_addons.cpp"
+    ]
+  },
+  {
+    "context": "configure_per_game_addons",
+    "source": "You are about to delete the following installed mods:",
+    "files": [
+      "src/yuzu/configuration/configure_per_game_addons.cpp"
+    ]
+  },
+  {
+    "context": "configure_post_processing",
+    "source": "No effects in use. Pick a preset and press Apply, or add effects one",
+    "files": [
+      "src/yuzu/configuration/configure_post_processing.cpp"
+    ]
+  },
+  {
+    "context": "configure_post_processing",
+    "source": "No usable ReShade FX effects were found. Place .fx files in the post_shaders",
+    "files": [
+      "src/yuzu/configuration/configure_post_processing.cpp"
+    ]
+  },
+  {
+    "context": "content",
+    "source": "All previous data in this directory will be deleted. Are you sure you wish to",
+    "files": [
+      "src/qt_common/util/content.cpp"
+    ]
+  },
+  {
+    "context": "content",
+    "source": "Ensure you have read permissions on the targeted directory and try",
+    "files": [
+      "src/qt_common/util/content.cpp"
+    ]
+  },
+  {
+    "context": "content",
+    "source": "Failed to clean up extracted firmware cache.",
+    "files": [
+      "src/qt_common/util/content.cpp"
+    ]
+  },
+  {
+    "context": "content",
+    "source": "Firmware installation cancelled, firmware may be in a bad state or corrupted.",
+    "files": [
+      "src/qt_common/util/content.cpp"
+    ]
+  },
+  {
+    "context": "content",
+    "source": "Once deleted, your data will NOT come back!",
+    "files": [
+      "src/qt_common/util/content.cpp"
+    ]
+  },
+  {
+    "context": "content",
+    "source": "This game may require firmware to function properly, and you don't have any installed.",
+    "files": [
+      "src/qt_common/util/content.cpp"
+    ]
+  },
+  {
+    "context": "content",
+    "source": "UNEXPECTED BAD THINGS MAY HAPPEN IF YOU DON'T READ THIS!<br>",
+    "files": [
+      "src/qt_common/util/content.cpp"
+    ]
+  },
+  {
+    "context": "fs",
+    "source": "Could not find a valid Ryujinx installation. This may typically occur if you are",
+    "files": [
+      "src/qt_common/util/fs.cpp"
+    ]
+  },
+  {
+    "context": "game",
+    "source": "This will create a shortcut to the current AppImage. This may",
+    "files": [
+      "src/qt_common/util/game.cpp"
+    ]
+  },
+  {
+    "context": "game_list",
+    "source": "Build Shader Precache",
+    "files": [
+      "src/yuzu/game/game_list.cpp"
+    ]
+  },
+  {
+    "context": "game_list",
+    "source": "Convert to NUP...",
+    "files": [
+      "src/yuzu/game/game_list.cpp"
+    ]
+  },
+  {
+    "context": "game_list",
+    "source": "Delete Shader Precache",
+    "files": [
+      "src/yuzu/game/game_list.cpp"
+    ]
+  },
+  {
+    "context": "game_list",
+    "source": "Dump NUP...",
+    "files": [
+      "src/yuzu/game/game_list.cpp"
+    ]
+  },
+  {
+    "context": "game_list",
+    "source": "Edit NUP Metadata...",
+    "files": [
+      "src/yuzu/game/game_list.cpp"
+    ]
+  },
+  {
+    "context": "game_list",
+    "source": "Rebuild Shader Precache",
+    "files": [
+      "src/yuzu/game/game_list.cpp"
+    ]
+  },
+  {
+    "context": "game_list",
+    "source": "Submit compatibility report…",
+    "files": [
+      "src/yuzu/game/game_list.cpp"
+    ]
+  },
+  {
+    "context": "game_list",
+    "source": "u25B2 Move Up",
+    "files": [
+      "src/yuzu/game/game_list.cpp"
+    ]
+  },
+  {
+    "context": "game_list",
+    "source": "u25bc Move Down",
+    "files": [
+      "src/yuzu/game/game_list.cpp"
+    ]
+  },
+  {
+    "context": "host_room",
+    "source": "Failed to announce the room to the public lobby. In order to host a",
+    "files": [
+      "src/yuzu/multiplayer/host_room.cpp"
+    ]
+  },
+  {
+    "context": "icon_search",
+    "source": "API key",
+    "files": [
+      "src/yuzu/util/icon_search.cpp"
+    ]
+  },
+  {
+    "context": "icon_search",
+    "source": "Choose an Icon",
+    "files": [
+      "src/yuzu/util/icon_search.cpp"
+    ]
+  },
+  {
+    "context": "icon_search",
+    "source": "Could not reach the icon sources (%1). Check your connection and try again.",
+    "files": [
+      "src/yuzu/util/icon_search.cpp"
+    ]
+  },
+  {
+    "context": "icon_search",
+    "source": "Create a free key on the <a href=\"%1\">SteamGridDB API preferences</a> page.",
+    "files": [
+      "src/yuzu/util/icon_search.cpp"
+    ]
+  },
+  {
+    "context": "icon_search",
+    "source": "Find Icon",
+    "files": [
+      "src/yuzu/util/icon_search.cpp"
+    ]
+  },
+  {
+    "context": "icon_search",
+    "source": "No matching icon was found on switchiconshowdown.com or SteamGridDB. Try a",
+    "files": [
+      "src/yuzu/util/icon_search.cpp"
+    ]
+  },
+  {
+    "context": "icon_search",
+    "source": "No matching icon was found on switchiconshowdown.com. A",
+    "files": [
+      "src/yuzu/util/icon_search.cpp"
+    ]
+  },
+  {
+    "context": "icon_search",
+    "source": "Please enter a game name first so the icon can be found.",
+    "files": [
+      "src/yuzu/util/icon_search.cpp"
+    ]
+  },
+  {
+    "context": "icon_search",
+    "source": "Searching for an icon failed unexpectedly: %1",
+    "files": [
+      "src/yuzu/util/icon_search.cpp"
+    ]
+  },
+  {
+    "context": "icon_search",
+    "source": "Searching for an icon took longer than %1 seconds and was stopped. Check",
+    "files": [
+      "src/yuzu/util/icon_search.cpp"
+    ]
+  },
+  {
+    "context": "icon_search",
+    "source": "SteamGridDB API Key",
+    "files": [
+      "src/yuzu/util/icon_search.cpp"
+    ]
+  },
+  {
+    "context": "icon_search",
+    "source": "SteamGridDB has several icons for this game. Pick one:",
+    "files": [
+      "src/yuzu/util/icon_search.cpp"
+    ]
+  },
+  {
+    "context": "icon_search",
+    "source": "SteamGridDB rejected the saved API key.",
+    "files": [
+      "src/yuzu/util/icon_search.cpp"
+    ]
+  },
+  {
+    "context": "loading_screen",
+    "source": "Precaching shaders %1 / %2",
+    "files": [
+      "src/yuzu/loading_screen.cpp"
+    ]
+  },
+  {
+    "context": "loading_screen",
+    "source": "Skip",
+    "files": [
+      "src/yuzu/loading_screen.cpp"
+    ]
+  },
+  {
+    "context": "loading_screen",
+    "source": "Start the game now. The shaders not precached yet are precached",
+    "files": [
+      "src/yuzu/loading_screen.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "%1 (IDLE)",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "%n file(s) failed to install",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "%n file(s) were newly installed",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "%n file(s) were overwritten",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Are you sure you want to close Lichii?",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Close the running game first.",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Conversion Cancelled",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Conversion Complete",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Conversion Failed",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Conversion in Progress",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Convert to NUP",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Converting to NUP",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Could not check for updates: GitHub answered with HTTP %1.",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Could not check for updates: GitHub rate limit reached. Lichii will try again at",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Could not restore the previous version: %1",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Current emulation speed. Values higher or lower than 100%",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Delete Shader Precache",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Delete the shader precache files of this game? They are built",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Disabling the web applet can lead to undefined behavior and should only be used",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Edit Complete",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Edit Failed",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Editing NUP Metadata",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Extract NUP",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Extracting NUP",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Extraction Complete",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Extraction Failed",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Failed to restore",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "FG %1 %2X",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "FG %1 AUTO",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "FG UNAVAILABLE",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Frame generation is off.",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Frame generation is on but generated no frames in the last half second. It pauses",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Frame generation is on but not running. %1",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Frame generation is on.%1 Whether it runs shows here once a game starts.",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Frame generation is running.%1",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Frame generation needs the Vulkan renderer.",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Game preparation failed. See the log for details.",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Games cannot be started while the shader precache is being",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Go back to the version this one replaced? Your settings and data are not",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Handheld controller can't be used on docked mode. Pro",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Hardware requirements not met",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "How many frames per second the game is currently displaying.",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "In order to submit a game compatibility test case, you must set up your web\n    //             token",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Installable Switch File (*.nca *.nsp *.nsz *.xci *.xcz);;Nintendo Content Archive",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "It adds up to %1 frames per game frame to reach %2 FPS.",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "It also pauses while the game already reaches %1 FPS.",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Lichii",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Lichii could not allocate the game's memory. Close other applications and",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "LSFG needs Lossless.dll from Lossless Scaling in the \"lossless\" folder",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Missing yuzu Account",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "NO FG",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Not enough memory to start the game",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Please select the how you would like the RomFS dumped.<br>Full will copy all of the",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Please select the type of title you would like to install this NCA as:\n(In",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Precache now",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Precache Shaders",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Preparing game files...",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Recommended Mario Kart World settings",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Restart Lichii to apply the X11 backend.",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Restore Previous Version",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Restore Previous Version...",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Resume Conversion",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Resume the interrupted conversion?",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Shader Precache in Progress",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Shaders are being precached. Try again when it is done.",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Start without",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "The conversion can be resumed by choosing",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "The currently running application has requested Lichii to not exit.",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "The files could not be deleted: %1",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "The NUP metadata was updated.",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "The NUP was created and the loose folder was",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "The NUP was created. You can delete the loose",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "The NUP was extracted. You can delete the NUP file if you no longer",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "The shaders of this game are not precached yet. Precache them now?",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "The target archive already exists:\n%1",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "The target directory already exists:\n%1",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "There is not enough free space at %1 to extract the RomFS. Please",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "There was an error copying the RomFS files or the user",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "This build was compiled without frame generation.",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "This game cannot be started while its dump is being",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "This game is being converted. Try again when it is done.",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "This GPU can't write to the window's swapchain format from a shader, so",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "This GPU lacks Vulkan features LSFG needs (Vulkan memory model, null",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "This is usually caused by outdated GPU drivers.",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Time taken to emulate a Switch frame, not counting framelimiting or v-sync. For",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "To avoid possible conflicts, we discourage users from installing base games to the",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Unable to prepare game files",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Use the recommended settings for Mario Kart World?",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Wayland is known to have significant performance issues and mysterious bugs.",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Your system does not meet the recommended hardware\n    //                               requirements.",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "main_window",
+    "source": "Your system does not meet the recommended hardware\n    //                           requirements.",
+    "files": [
+      "src/yuzu/main_window.cpp"
+    ]
+  },
+  {
+    "context": "migration_worker",
+    "source": "Citron",
+    "files": [
+      "src/yuzu/migration_worker.h"
+    ]
+  },
+  {
+    "context": "migration_worker",
+    "source": "If you wish to clean up the files which were left in the old",
+    "files": [
+      "src/yuzu/migration_worker.cpp"
+    ]
+  },
+  {
+    "context": "migration_worker",
+    "source": "Linking the old directory failed. You may need to re-run with",
+    "files": [
+      "src/yuzu/migration_worker.cpp"
+    ]
+  },
+  {
+    "context": "migration_worker",
+    "source": "Note that your configuration and data will be shared with %1.",
+    "files": [
+      "src/yuzu/migration_worker.cpp"
+    ]
+  },
+  {
+    "context": "migration_worker",
+    "source": "Sudachi",
+    "files": [
+      "src/yuzu/migration_worker.h"
+    ]
+  },
+  {
+    "context": "migration_worker",
+    "source": "Suyu",
+    "files": [
+      "src/yuzu/migration_worker.h"
+    ]
+  },
+  {
+    "context": "migration_worker",
+    "source": "Yuzu",
+    "files": [
+      "src/yuzu/migration_worker.h"
+    ]
+  },
+  {
+    "context": "mod",
+    "source": "Could not detect mod type automatically. Please manually",
+    "files": [
+      "src/qt_common/util/mod.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "%1 / %2 MB  -  %3 / %4 files",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "%1 MB/s  -  about %2:%3 left",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "%1%",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "<b>File</b><br>%1",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "<b>Source</b><br>%1<br><b>Target</b><br>%2",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Approximate space needed: %1 MB. Free on the target volume:",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Auto-detect (nothing found in the dump)",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Auto-detect: %1 (from %2)",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Cancelling...",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Choose Icon",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Choose Icon...",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Convert",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Convert to NUP",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Current icon in the NUP.",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Custom icon, stored as %1x%1 JPEG.",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Drop an icon here\nor click to browse",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Drop an image here or click to browse",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Drop to replace",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "e.g. 1.2.0",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Edit NUP Metadata",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Empty fields remove that metadata. The change is written in place;",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Find Icon Online...",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Free space is less than the estimate.",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Icon",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Icon found in the dump.",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Icon will be removed.",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Localized names",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Localized names (%1 set)",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Low storage: delete the original files as they are packed",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Name shown in the game list",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "No icon found in the dump. Add one, or the NUP will have none.",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "No icon in the NUP. Add one, or it will have none.",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Preparing...",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Publisher",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Publisher shown in the game list",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Release to use this image",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Remove Icon",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Same as Name",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Searching...",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Set manually:",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "That file could not be read as an image.",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "The icon that was found could not be read.",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "nup_dialogs",
+    "source": "Use Detected",
+    "files": [
+      "src/yuzu/nup_dialogs.cpp"
+    ]
+  },
+  {
+    "context": "path",
+    "source": "Failed to create or open shader cache for this title,",
+    "files": [
+      "src/qt_common/util/path.cpp"
+    ]
+  },
+  {
+    "context": "qt_error",
+    "source": "An error occurred on %1 at %2.\nPlease try again or contact the developer of the",
+    "files": [
+      "src/yuzu/applets/qt_error.cpp"
+    ]
+  },
+  {
+    "context": "shader_warm_dialog",
+    "source": "%1: %L2",
+    "files": [
+      "src/yuzu/shader_warm_dialog.cpp"
+    ]
+  },
+  {
+    "context": "shader_warm_dialog",
+    "source": "%1: %L2 / %L3",
+    "files": [
+      "src/yuzu/shader_warm_dialog.cpp"
+    ]
+  },
+  {
+    "context": "shader_warm_dialog",
+    "source": "Close",
+    "files": [
+      "src/yuzu/shader_warm_dialog.cpp"
+    ]
+  },
+  {
+    "context": "shader_warm_dialog",
+    "source": "Compute programs: %L1",
+    "files": [
+      "src/yuzu/shader_warm_dialog.cpp"
+    ]
+  },
+  {
+    "context": "shader_warm_dialog",
+    "source": "It is built on the loading screen when Precache shaders before game start is",
+    "files": [
+      "src/yuzu/shader_warm_dialog.cpp"
+    ]
+  },
+  {
+    "context": "shader_warm_dialog",
+    "source": "No details were given.",
+    "files": [
+      "src/yuzu/shader_warm_dialog.cpp"
+    ]
+  },
+  {
+    "context": "shader_warm_dialog",
+    "source": "Precache shaders: %1",
+    "files": [
+      "src/yuzu/shader_warm_dialog.cpp"
+    ]
+  },
+  {
+    "context": "shader_warm_dialog",
+    "source": "Shader precache could not be built.",
+    "files": [
+      "src/yuzu/shader_warm_dialog.cpp"
+    ]
+  },
+  {
+    "context": "shader_warm_dialog",
+    "source": "Shader precache is ready.",
+    "files": [
+      "src/yuzu/shader_warm_dialog.cpp"
+    ]
+  },
+  {
+    "context": "shader_warm_dialog",
+    "source": "Shader precache stopped.",
+    "files": [
+      "src/yuzu/shader_warm_dialog.cpp"
+    ]
+  },
+  {
+    "context": "shader_warm_dialog",
+    "source": "Skipped (could not be read or converted): %L1",
+    "files": [
+      "src/yuzu/shader_warm_dialog.cpp"
+    ]
+  },
+  {
+    "context": "shader_warm_dialog",
+    "source": "Starting",
+    "files": [
+      "src/yuzu/shader_warm_dialog.cpp"
+    ]
+  },
+  {
+    "context": "shader_warm_dialog",
+    "source": "Stopping",
+    "files": [
+      "src/yuzu/shader_warm_dialog.cpp"
+    ]
+  },
+  {
+    "context": "shader_warm_dialog",
+    "source": "The game files have no compute shaders to prepare.",
+    "files": [
+      "src/yuzu/shader_warm_dialog.cpp"
+    ]
+  },
+  {
+    "context": "shader_warm_dialog",
+    "source": "The shaders your earlier play sessions saved are still precached.",
+    "files": [
+      "src/yuzu/shader_warm_dialog.cpp"
+    ]
+  },
+  {
+    "context": "shader_warm_dialog",
+    "source": "This game keeps its shaders in a format Lichii can't read, so none",
+    "files": [
+      "src/yuzu/shader_warm_dialog.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Accelerates BCn 3D texture decoding using GPU compute.",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Allows saving shaders to storage for faster loading on following game",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Allows the fragment shader to execute per sample in a multi-sampled fragment",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "AMD FidelityFX Super Resolution 1 (FSR 1)",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "AMD FidelityFX Super Resolution 1, softer sharpening",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Ask",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Auto (shader extent)",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Auto Flow Scale",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Bounded wait",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Builds shaders on the loading screen, on every CPU thread, so they don't stutter",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Caps how often the game presents, so the game itself runs at this rate. 0 leaves",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Controls how the emulator manages frame pacing to reduce stuttering and make the",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Controls the game's maximum rendering speed, but it's up to each game if it runs",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Controls the GPU emulation mode.\nMost games render fine with Fast, but Accurate is still",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Controls the number of features that can be used in Extended Dynamic State.",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Controls the quality of texture rendering at oblique angles.\nSafe to set at 16x on",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Determines the number of depth slices processed in a single dispatch.",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Dump Optical Flow",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Enable Frame Generation",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Enables access to previous buffer states.\nThis option may improve rendering",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Enables GPU vendor-specific pipeline cache.\nThis option can improve shader loading",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Enables Horizon's built-in overlay applet. Press and hold the home button for 1",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Ensures data consistency between compute and memory operations.\nThis option fixes",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "FIFO (VSync) does not drop frames or exhibit tearing but is limited by the screen",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Flow Scale",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Forces the game to use its native 30 FPS mode at normal game speed.",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Forces to render at a different resolution.",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "FPS Limit",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Frame Generation Multiplier",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Frame Generation Type",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Frame rate limit (Switch 2):",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Full binding",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "How much of a Switch 2 compute shader's storage buffer is treated as written by",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Increases the amount of emulated RAM.\nDoesn't affect performance/stability but may",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Lets the game adjust between 30 and 60 FPS using whole-frame timing to maintain",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Lossless Scaling (LSFG)",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Makes the game believe GPU work finishes faster than it does, so it stops lowering",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Mario Kart World: 30 FPS mode",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Mario Kart World: dynamic FPS (experimental)",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Most GPUs lack support for ASTC textures and must decompress to an",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Native compute write mark:",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "No sharpening",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Ocarina of Time anti-aliasing:",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Only applies when asynchronous shader building is on. Decides what a Switch 2 draw",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Optical Flow Interpolation (built-in)",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Overrides prompts asking to confirm stopping the emulation.\nEnabling",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Pin GPU threads to their own cores",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Pins the emulator's GPU threads to dedicated physical CPU cores and keeps the",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Pipeline wait per frame (ms):",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Precache shaders before game start:",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Queue Target",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Raises the clock the emulated CPU reports, which removes some FPS limiters.",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Rate of the Switch 2 VSync event that games start their frames on (default 60 Hz).",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "RCAS Sharpness:",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Required by some games.\nThis setting only exists for Intel",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Run the game at normal speed during video playback, even when the framerate is",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Runs a Switch 2 game's own DLSS (its upscaling network, translated for this GPU)",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Runs work in the background while waiting for graphics commands to keep the GPU from",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Selects if the console is in Docked or Handheld mode.\nGames will change",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Selects whether the emulator should prefer to conserve memory or make maximum usage",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Set a custom value of CPU ticks. Higher values can increase performance, but may",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Sets the maximum amount of texture data (in MiB) processed per frame.",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Sets the maximum size (MiB) for GPU-based texture unswizzling.",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Skip",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Skips certain cache invalidations during memory updates, reducing CPU usage and",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Specifies how videos should be decoded.\nIt can either use the CPU or the GPU for",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Strength of RCAS (AMD's contrast-adaptive sharpening) on the upscaler used in place",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Stretches the renderer to fit the specified aspect ratio.\nMost games only support",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Switch 2 draws with unbuilt pipelines:",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Synchronizes CPU core speed with the game's maximum rendering speed to boost FPS",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Target Frame Rate",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "The anti-aliasing method to use.\nSMAA offers the best quality.\nFXAA",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "The Legend of Zelda: Ocarina of Time only.\nGame: the game's own anti-aliasing",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "The method used to render the window in fullscreen.\nBorderless offers the best",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "This optimization speeds up memory accesses by the guest program.\nEnabling it causes",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "This option allows to change the clock of the console.",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "This option controls how ASTC textures should be decoded.",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "This option improves speed by eliminating a safety check before every memory",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "This option improves speed by reducing accuracy of fused-multiply-add instructions on",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "This option improves speed by relying only on the semantics of cmpxchg to ensure",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "This option improves speed by removing NaN checking.\nPlease note this also reduces",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "This option improves the speed of 32 bits ASIMD floating-point functions by running",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "This option improves the speed of some approximate floating-point functions by using",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "This option increases CPU emulation thread use from 1 to the maximum of 4.",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Use NVIDIA DLSS in place of a game's DLSS (experimental)",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Use the game's own DLSS",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Used by the Bounded mode: the most time per frame that Switch 2 draws may wait in",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game's own DLSS,",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Uses reactive flushing instead of predictive flushing, allowing more accurate memory",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "Wait",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "When the Slow Speed hotkey is pressed, the speed will be limited to this",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "shared_translation",
+    "source": "When the Turbo Speed hotkey is pressed, the speed will be limited to this",
+    "files": [
+      "src/qt_common/config/shared_translation.cpp"
+    ]
+  },
+  {
+    "context": "state",
+    "source": "Failed to update the room information. Please check your Internet",
+    "files": [
+      "src/yuzu/multiplayer/state.cpp"
+    ]
+  },
+  {
+    "context": "update_dialog",
+    "source": "<a href=\"%1\">View on GitHub</a>",
+    "files": [
+      "src/yuzu/updater/update_dialog.cpp"
+    ]
+  },
+  {
+    "context": "update_dialog",
+    "source": "Another Lichii window is already updating this",
+    "files": [
+      "src/yuzu/updater/update_dialog.cpp"
+    ]
+  },
+  {
+    "context": "update_dialog",
+    "source": "Could not create a folder for the update.",
+    "files": [
+      "src/yuzu/updater/update_dialog.cpp"
+    ]
+  },
+  {
+    "context": "update_dialog",
+    "source": "Could not replace %1. Your installation was not changed.",
+    "files": [
+      "src/yuzu/updater/update_dialog.cpp"
+    ]
+  },
+  {
+    "context": "update_dialog",
+    "source": "Could not start the update installer.",
+    "files": [
+      "src/yuzu/updater/update_dialog.cpp"
+    ]
+  },
+  {
+    "context": "update_dialog",
+    "source": "Download failed verification",
+    "files": [
+      "src/yuzu/updater/update_dialog.cpp"
+    ]
+  },
+  {
+    "context": "update_dialog",
+    "source": "Failed to install the update",
+    "files": [
+      "src/yuzu/updater/update_dialog.cpp"
+    ]
+  },
+  {
+    "context": "update_dialog",
+    "source": "Failed to restart",
+    "files": [
+      "src/yuzu/updater/update_dialog.cpp"
+    ]
+  },
+  {
+    "context": "update_dialog",
+    "source": "Lichii will close, install the update and start again. The previous version is",
+    "files": [
+      "src/yuzu/updater/update_dialog.cpp"
+    ]
+  },
+  {
+    "context": "update_dialog",
+    "source": "Please start %1 again yourself.",
+    "files": [
+      "src/yuzu/updater/update_dialog.cpp"
+    ]
+  },
+  {
+    "context": "update_dialog",
+    "source": "Remind Me Later",
+    "files": [
+      "src/yuzu/updater/update_dialog.cpp"
+    ]
+  },
+  {
+    "context": "update_dialog",
+    "source": "Skip This Version",
+    "files": [
+      "src/yuzu/updater/update_dialog.cpp"
+    ]
+  },
+  {
+    "context": "update_dialog",
+    "source": "The downloaded file does not match the checksum GitHub published for it, so it",
+    "files": [
+      "src/yuzu/updater/update_dialog.cpp"
+    ]
+  },
+  {
+    "context": "update_dialog",
+    "source": "The downloaded update could not be unpacked.",
+    "files": [
+      "src/yuzu/updater/update_dialog.cpp"
+    ]
+  },
+  {
+    "context": "update_dialog",
+    "source": "The new version is installed. The previous version is kept as %1.\n\nRestart now?",
+    "files": [
+      "src/yuzu/updater/update_dialog.cpp"
+    ]
+  },
+  {
+    "context": "update_dialog",
+    "source": "This release has no PGO build, so the standard build will be downloaded.",
+    "files": [
+      "src/yuzu/updater/update_dialog.cpp"
+    ]
+  },
+  {
+    "context": "update_dialog",
+    "source": "Unpacking...",
+    "files": [
+      "src/yuzu/updater/update_dialog.cpp"
+    ]
+  },
+  {
+    "context": "update_dialog",
+    "source": "Update Installed",
+    "files": [
+      "src/yuzu/updater/update_dialog.cpp"
+    ]
+  },
+  {
+    "context": "update_dialog",
+    "source": "Update Ready",
+    "files": [
+      "src/yuzu/updater/update_dialog.cpp"
+    ]
+  },
+  {
+    "context": "worker",
+    "source": "Folder size is not calculated during game discovery.",
+    "files": [
+      "src/qt_common/game_list/worker.cpp"
+    ]
+  },
+  {
+    "context": "worker",
+    "source": "Not scanned",
+    "files": [
+      "src/qt_common/game_list/worker.cpp"
+    ]
+  }
+]

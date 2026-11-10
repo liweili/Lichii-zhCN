@@ -1,0 +1,1 @@
+MainWindow: 'Frame generation is on but generated no frames in the last h' 原文['%1'] 译文[]

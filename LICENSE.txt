@@ -1,0 +1,30 @@
+Lichii-zhCN · 许可说明
+=======================
+
+本项目为 Lichii 的第三方简体中文语言包，遵循上游的开源许可。
+
+1. 补丁与工具
+   -----------
+   patch/ 与 tools/ 下的代码，以及项目自建脚本，以
+   GNU General Public License v3.0 or later (GPL-3.0-or-later) 授权。
+   完整许可文本：https://www.gnu.org/licenses/gpl-3.0.html
+   上游对应声明见 Lichii 仓库的 LICENSE.txt 与源文件 SPDX 头
+   （`SPDX-License-Identifier: GPL-3.0-or-later`）。
+
+2. 译文数据
+   --------
+   lang/baseline.zh_CN.ts 复制自 Lichii `dist/languages/zh_CN.ts`，
+   该目录由 Eden Emulator 的 Transifex 项目同步，继承原有的版权与许可。
+   本项目在其基础上做的修正与补译，同样以 GPL-3.0-or-later 提供，
+   并遵循上游 dist/languages/README.md 对译文贡献的约定。
+
+3. 第三方与商标
+   ------------
+   Lichii、Eden、Eglantine、yuzu、Sudachi、Nintendo Switch 等名称与标识
+   归各自权利人所有。本项目与上述项目及任天堂均无隶属、授权或背书关系。
+   本项目不含游戏 ROM、固件、密钥或任何受版权保护的任天堂资源。
+
+4. 上游义务
+   --------
+   若你分发基于本项目的修改版，请保留原始版权声明与许可声明，
+   并按 GPL 要求提供对应源代码（含本项目的补丁与工具）。

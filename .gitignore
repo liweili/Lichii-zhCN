@@ -1,0 +1,9 @@
+.tmp/
+__pycache__/
+*.pyc
+*.pyo
+*.zhcn-orig
+*.ts.bak
+*.qm.bak
+.vscode/
+.idea/
