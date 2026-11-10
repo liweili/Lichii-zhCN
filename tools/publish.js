@@ -131,6 +131,7 @@ async function createRepo(token) {
 // ---------------------------------------------------------------- 推代码
 function pushCode(token) {
   const url = `https://${token}@github.com/${OWNER}/${REPO}.git`;
+  const mask = (s) => s.split(token).join('***');
   console.log('推送 main ...');
   // 全局 insteadOf 会把 github.com 重写到 ghfast.top 镜像；镜像 ref 状态
   // 常不同步，这里用 GIT_CONFIG_* 临时清空该重写，直连真实 GitHub。
@@ -140,12 +141,22 @@ function pushCode(token) {
     GIT_CONFIG_KEY_0: 'url.https://ghfast.top/https://github.com/.insteadof',
     GIT_CONFIG_VALUE_0: 'https://github.invalid/',
   };
+  const run = (cmd) => execSync(cmd, { cwd: ROOT, env, encoding: 'utf8' });
   try {
-    execSync(`git push -u "${url}" main`, { cwd: ROOT, stdio: 'inherit', env });
+    // 不带 -u：带 token 的临时 URL 绝不能写进 .git/config 成为 upstream。
+    const out = run(`git push "${url}" main`);
+    if (out && out.trim()) process.stdout.write(mask(out));
+    // upstream 单独指向干净的 origin（不含任何凭据）。
+    try {
+      run('git branch --set-upstream-to=origin/main main');
+    } catch (e) {
+      console.log('  · 设置 upstream 跳过:', mask(String(e.message)).split('\n')[0]);
+    }
     console.log('  ✓ 推送完成');
     return true;
   } catch (e) {
-    console.error('  ✗ 推送失败:', e.message);
+    const detail = [e.stdout, e.stderr, e.message].filter(Boolean).join('\n');
+    console.error('  ✗ 推送失败:', mask(String(detail)).slice(-1200));
     return false;
   }
 }
